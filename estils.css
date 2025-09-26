@@ -1,0 +1,32 @@
+#titol{
+
+    font-size: 50px;
+    text-decoration: underline;
+}
+
+
+p {
+    color: rgb(49, 243, 24)
+
+}
+.text-important{
+    font-style: bold;
+    color: rgb(255, 0, 43);
+
+}
+.vermell{
+    color: rgb(255, 0, 43);
+
+}
+.gran{
+    font-size: 24px;
+
+}
+.negreta{
+    font-style: bold;
+
+}
+.subratllat{
+    text-decoration: underline;
+
+}
