@@ -30,3 +30,16 @@ p {
     text-decoration: underline;
 
 }
+ul > li:first-child {
+    color: rgb(229, 0, 0);
+    
+}
+ul > li:nth-child(2){
+color: rgb(39, 222, 39);
+}
+ul > li:last-child{
+    color: rgb(67, 67, 194);
+}
+.hover-a{
+    color: green;
+}
