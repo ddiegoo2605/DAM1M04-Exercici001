@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(119, 167, 79);
+}
 #titol{
 
     font-size: 50px;
@@ -10,7 +13,7 @@ p {
 
 }
 .text-important{
-    font-style: bold;
+    font-weight: bold;
     color: rgb(255, 0, 43);
 
 }
@@ -23,7 +26,7 @@ p {
 
 }
 .negreta{
-    font-style: bold;
+    font-weight: bold;
 
 }
 .subratllat{
@@ -40,6 +43,18 @@ color: rgb(39, 222, 39);
 ul > li:last-child{
     color: rgb(67, 67, 194);
 }
-.hover-a{
-    color: green;
+.enlace_wiki:hover {
+    color:black;
+    cursor: pointer;
+}
+p::before {
+    content: "👉";
+    color: blue;
+   
+}
+
+p::after {
+    content: "✔";
+    color: rgb(4, 255, 84);
+    
 }
